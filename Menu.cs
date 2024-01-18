@@ -34,5 +34,13 @@ namespace ColegioParroquialInmaculada
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Matricula mat = new Matricula();
+            mat.TopLevel = false;
+            panel2.Controls.Add(mat);
+            mat.Show();
+        }
     }
 }

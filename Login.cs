@@ -19,7 +19,7 @@ using Point = System.Drawing.Point;
 
 namespace ColegioParroquialInmaculada
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
 
         private int RadioBorde = 30;
@@ -28,7 +28,7 @@ namespace ColegioParroquialInmaculada
         private float bordersize;
         private object form;
 
-        public Form1()
+        public Login()
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
