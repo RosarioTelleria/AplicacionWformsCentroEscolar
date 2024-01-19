@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ColegioParroquialInmaculada
 {
-    public partial class Estudiantes : Form
+    public partial class PagodeColegiatura : Form
     {
-        public Estudiantes()
+        public PagodeColegiatura()
         {
             InitializeComponent();
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

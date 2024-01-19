@@ -104,6 +104,12 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="PagodeColegiatura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PagodeColegiatura.Designer.cs">
+      <DependentUpon>PagodeColegiatura.cs</DependentUpon>
+    </Compile>
     <Compile Include="Prematricula.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +129,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PagodeColegiatura.resx">
+      <DependentUpon>PagodeColegiatura.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Prematricula.resx">
       <DependentUpon>Prematricula.cs</DependentUpon>
